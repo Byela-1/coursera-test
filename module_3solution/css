@@ -1,1 +1,13 @@
+#header-nav {
+background-color: #FEC5E5;
+border-radius: 0;
+border:o;
+}
+.navbar-brand {
+padding-top: 25px;
+}
+
+.navbar-brand h1 {
+font-family: 'Roboto', sans-serif;
+color: #FF1694
 
