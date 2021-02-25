@@ -1,0 +1,135 @@
+
+ 
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+.box {
+  border: 1px solid black;
+  width: 90%;
+
+  margin-right: 0;
+  margin-left: auto;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  
+}
+.row {
+  width: 100%
+  float: left;
+}
+
+}
+span {
+	float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 15px;
+  position: relative;
+  background: #ff1694
+
+}
+section {
+  border: 2px solid black ;
+  background-color: #ffcc99;
+  width: 100%;
+  height: 200px;
+  font-family: sans-serif;
+  color: #4d0000;
+  position: relative;
+  overflow: auto; 
+
+  }
+
+p {
+	font-family: Helvetica;
+  padding: 10px;
+
+}
+.container {
+  width: 100%;
+
+}
+/**for the large devices**/
+@media (min-width: 992px) {
+	.box {
+    width: 30%;
+  }
+}
+/*for medium devices*/
+@media (min-width: 768px) and (max-width: 991px){
+  .box {
+    width: 40%
+
+  }
+  
+}
+/*for small devices*/
+@media (max-width: 767px) {
+  .box {
+    width: 90%;
+    height: 200px;
+  }
+  
+}
+
+h1 {
+  text-align: center;
+  font-size:50px;
+}
+#chicken {
+  background-color: green;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Times new roman;
+  font-size: 125%;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+
+}
+
+#beef {
+  background-color: #800000;
+  border-left: : 1px solid black;
+border-bottom: : 1px solid black;
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Times new roman;
+  font-size: 125%;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+}
+
+#sushi {
+  background-color: #003300;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Times new roman;
+  font-size: 125%;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
